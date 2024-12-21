@@ -1,7 +1,7 @@
-# system-design
+# System Design
 Contains important system design topics from interview perspective
 
-## Low Level Design
+### Low Level Design
 
 1) Scalability: https://lnkd.in/gq4hW9qx
 2) Horizontal vs Vertical Scaling: https://lnkd.in/g8qcwRCy
