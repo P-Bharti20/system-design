@@ -1,4 +1,6 @@
 //Non thread safe singleton
+//The reason it’s not thread safe is because if two threads call getInstance() method at the same time(concurrently) when instance is nullptr,
+//both will proceed to create a new instance, violating the Singleton pattern.
 class Singleton {
 private:
     Singleton() {} // Private constructor to prevent direct instantiation
